@@ -30,7 +30,7 @@ function clock(){
     let timeSecond = currentTime.getSeconds();
     if(timeSecond<10){
         timeSecond=`0${timeSecond}`
-        document.getElementById("minutes").innerHTML=timeSecond;
+        document.getElementById("seconds").innerHTML=timeSecond;
     }
     document.getElementById("seconds").innerHTML=timeSecond;
 }

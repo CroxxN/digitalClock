@@ -24,12 +24,16 @@ body{
     width: 600px;
     height: 200px;
     border-radius: 11px;
+    
     background-image: linear-gradient(to right, rgb(51, 223, 151) ,rgb(212, 59, 131));
     border: 1px solid black;
     color: #fff;
     text-shadow:
         0 0 30px rgb(0, 204, 255), 
         0 0 10px rgb(0, 183, 255);  
+}
+#hour #minutes #seconds{
+  padding: 4px;
 }
 .githubIcon img{
     position: fixed;
