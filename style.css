@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: url("./assets/background.svg");
+    background-size:cover;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 200px;
+    border-radius: 11px;
+    background-image: linear-gradient(to right, rgb(51, 223, 151) ,rgb(212, 59, 131));
+    border: 1px solid black;
+    color: #fff;
+    text-shadow:
+        0 0 30px rgb(0, 204, 255), 
+        0 0 10px rgb(0, 183, 255);  
+}
+.githubIcon img{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 600px) {
+    .box{
+        width: 90vw;
+        height: 150px;
+        font-size: 50px;
+    }
+}
