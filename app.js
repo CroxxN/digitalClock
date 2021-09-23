@@ -17,7 +17,7 @@ function clock(){
         timeMeridiem = "PM"
         if(timeHour<10){
             timeHour=`0${timeHour}`
-            document.getElementById("minutes").innerHTML=timeHour;
+            document.getElementById("hour").innerHTML=timeHour;
         }
         document.getElementById("meridiem").innerHTML=timeMeridiem;
     }
