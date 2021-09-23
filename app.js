@@ -23,7 +23,7 @@ function clock(){
     }
     if(currentTime.getHours()<10){
         timeHour=`0${timeHour}`
-        document.getElementById("minutes").innerHTML=timeHour;
+        document.getElementById("minutes").innerHTML=timeMinutes;
     }
     document.getElementById("hour").innerHTML=timeHour;
     document.getElementById("meridiem").innerHTML=timeMeridiem;
